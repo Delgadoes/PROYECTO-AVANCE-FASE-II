@@ -17,10 +17,16 @@ import javax.servlet.http.HttpSession;
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
+        request.setCharacterEncoding("UTF-8");
         String usuario = request.getParameter("usuario");
         String contraseña = request.getParameter("contraseña");
         String tipoUsuario = request.getParameter("tipoUsuario");
+
+        // Depuración
+        System.out.println("Datos recibidos:");
+        System.out.println("Usuario: " + usuario);
+        System.out.println("Contraseña: " + contraseña);
+        System.out.println("Tipo Usuario: " + tipoUsuario);
 
         // Validación de campos vacíos
         if (usuario == null || usuario.isEmpty() ||

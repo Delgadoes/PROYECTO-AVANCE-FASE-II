@@ -70,7 +70,7 @@
     <div class="error"><%= request.getAttribute("error") %></div>
     <% } %>
 
-    <form action="login" method="POST">
+    <form action="login" method="POST" accept-charset="UTF-8">
         <div class="form-group">
             <label for="usuario">USUARIO</label>
             <input type="text" id="usuario" name="usuario" required>
