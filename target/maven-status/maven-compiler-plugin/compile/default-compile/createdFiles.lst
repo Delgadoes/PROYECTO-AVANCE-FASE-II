@@ -1,4 +1,6 @@
 main\java\bibliotecaamigosdonbosco\ConexionBD.class
+main\java\bibliotecaamigosdonbosco\ConsultarEjemplaresAlumnos.class
 bibliotecaamigosdonbosco\SeguridadFilter.class
 main\java\bibliotecaamigosdonbosco\UsuarioSesion.class
+main\java\bibliotecaamigosdonbosco\ConsultarEjemplaresAlumnos$Ejemplar.class
 main\java\bibliotecaamigosdonbosco\LoginServlet.class

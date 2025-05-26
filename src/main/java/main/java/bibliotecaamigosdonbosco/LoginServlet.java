@@ -49,12 +49,15 @@ public class LoginServlet extends HttpServlet {
                         String contraseñaDB = rs.getString("contraseña");
                         if (contraseña.equals(contraseñaDB)) {
                             int idUsuario = rs.getInt("id");
+                            String nombreUsuario = rs.getString("nombre");
+                            
 
                             // Crear sesión y almacenar datos del usuario
                             HttpSession session = request.getSession();
                             session.setAttribute("idUsuario", idUsuario);
                             session.setAttribute("tipoUsuario", tipoUsuario);
-
+                            session.setAttribute("nombreUsuario", nombreUsuario);
+                            
                             // Redirigir según el tipo de usuario
                             switch (tipoUsuario) {
                                 case "Administrador":
@@ -64,7 +67,7 @@ public class LoginServlet extends HttpServlet {
                                     response.sendRedirect("profesor/inicio.jsp");
                                     break;
                                 case "Alumno":
-                                    response.sendRedirect("alumno/inicio.jsp");
+                                    response.sendRedirect("alumno.jsp");
                                     break;
                                 default:
                                     request.setAttribute("error", "Tipo de usuario no reconocido.");
