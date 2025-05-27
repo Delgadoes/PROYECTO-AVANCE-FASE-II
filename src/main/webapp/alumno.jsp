@@ -68,7 +68,7 @@
     <div class="menu">
         <a href="consultarEjemplares.jsp">Consultar Ejemplares</a>
         <a href="solicitarPrestamo.jsp">Solicitar Préstamo</a>
-        <a href="solicitarDevolucion.jsp">Devolver Ejemplar</a>
+        <a href="devolucion.jsp">Devolver Ejemplar</a>
     </div>
 
     <div class="logout">

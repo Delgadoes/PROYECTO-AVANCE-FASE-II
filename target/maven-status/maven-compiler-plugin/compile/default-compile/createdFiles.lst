@@ -1,9 +1,11 @@
 main\java\bibliotecaamigosdonbosco\SolicitarPrestamoServlet$Ejemplar.class
 bibliotecaamigosdonbosco\SeguridadFilter.class
 main\java\bibliotecaamigosdonbosco\UsuarioSesion.class
+main\java\bibliotecaamigosdonbosco\Prestamo.class
 main\java\bibliotecaamigosdonbosco\ConsultarEjemplaresAlumnos$Ejemplar.class
 main\java\bibliotecaamigosdonbosco\LoginServlet.class
 main\java\bibliotecaamigosdonbosco\PrestamoService.class
 main\java\bibliotecaamigosdonbosco\SolicitarPrestamoServlet.class
 main\java\bibliotecaamigosdonbosco\ConexionBD.class
+main\java\bibliotecaamigosdonbosco\DevolucionServlet.class
 main\java\bibliotecaamigosdonbosco\ConsultarEjemplaresAlumnos.class
