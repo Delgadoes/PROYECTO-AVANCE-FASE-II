@@ -90,7 +90,7 @@
     </tbody>
 </table>
     <div style="width: 80%; margin: 20px auto; text-align: center;">
-    <button type="button" onclick="window.location.href='alumno.jsp';">Regresar a Inicio</button>
+    <button type="button" onclick="window.location.href='alumno.jsp';">Regresar </button>
 </div>
 </body>
 </html>
