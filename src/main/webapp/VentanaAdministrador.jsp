@@ -76,7 +76,7 @@
     <div class="menu">
         <a href="gestionUsuarios.jsp">GESTIONAR USUARIOS</a>
         <a href="configurarMora.jsp">CONFIGURACIÓN MORA Y DÍAS</a>
-        <a href="agregarEjemplares.jsp">AGREGAR EJEMPLARES</a>
+        <a href="agregarEjemplar.jsp">AGREGAR EJEMPLARES</a>
         <a href="consultarEjemplaresadmin.jsp">CONSULTAR/ELIMINAR EJEMPLARES</a>
     </div>
 

@@ -217,6 +217,10 @@
             onclick="window.location.href='${pageContext.request.contextPath}/VentanaAdministrador.jsp';">
         Regresar
     </button>
+    <button type="button" class="search-btn"
+            onclick="window.location.href='${pageContext.request.contextPath}/admin/agregarEjemplar';">
+        Agregar Ejemplar
+    </button>
 </div>
 
 </body>
