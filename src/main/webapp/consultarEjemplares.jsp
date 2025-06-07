@@ -116,10 +116,22 @@
 
         .button-container button {
             background-color: #e74c3c;
+            margin-right: 10px;
+        }
+
+        .button-container button.login-btn {
+            background-color: #2ecc71;
         }
 
         .button-container button:hover {
-            background-color: #c0392b;
+            opacity: 0.9;
+        }
+
+        .guest-notice {
+            text-align: center;
+            color: #7f8c8d;
+            margin-top: 20px;
+            font-style: italic;
         }
     </style>
 </head>
@@ -146,32 +158,37 @@
 
 <table>
     <thead>
-        <tr>
-            <th>ID</th>
-            <th>Título</th>
-            <th>Autor/Artista</th>
-            <th>Ubicación</th>
-        </tr>
+    <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Autor/Artista</th>
+        <th>Ubicación</th>
+    </tr>
     </thead>
     <tbody>
     <% for(Ejemplar e : listaEjemplares) { %>
-        <tr>
-            <td><%= e.getId() %></td>
-            <td><%= e.getTitulo() %></td>
-            <td><%= e.getAutorArtista() %></td>
-            <td><%= e.getUbicacion() %></td>
-        </tr>
+    <tr>
+        <td><%= e.getId() %></td>
+        <td><%= e.getTitulo() %></td>
+        <td><%= e.getAutorArtista() %></td>
+        <td><%= e.getUbicacion() %></td>
+    </tr>
     <% } %>
     <% if(listaEjemplares.isEmpty()) { %>
-        <tr>
-            <td colspan="4" class="no-results">No se encontraron resultados.</td>
-        </tr>
+    <tr>
+        <td colspan="4" class="no-results">No se encontraron resultados.</td>
+    </tr>
     <% } %>
     </tbody>
 </table>
 
 <div class="button-container">
-    <button type="button" onclick="window.location.href='alumno.jsp';">Regresar</button>
+    <button type="button" onclick="window.location.href='login.jsp';">Regresar</button>
+    <button type="button" class="login-btn" onclick="window.location.href='login.jsp';">Iniciar Sesión</button>
+</div>
+
+<div class="guest-notice">
+    <p>Estás viendo una versión limitada para invitados. Inicia sesión para acceder a todas las funcionalidades.</p>
 </div>
 
 </body>

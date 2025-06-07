@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74335171-f842-4d9b-ab27-51d757be1f2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/VentanaProfesor.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/bibliotecaamigosdonbosco/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/bibliotecaamigosdonbosco/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/biblioteca-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/biblioteca-web/WEB-INF/classes/main/java/bibliotecaamigosdonbosco/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web/WEB-INF/classes/main/java/bibliotecaamigosdonbosco/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/bibliotecaamigosdonbosco/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/bibliotecaamigosdonbosco/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/consultarEjemplares.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/consultarEjemplares.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,8 @@
       <workItem from="1749086135696" duration="5650000" />
       <workItem from="1749181156583" duration="2618000" />
       <workItem from="1749249488378" duration="2151000" />
-      <workItem from="1749265431592" duration="5354000" />
+      <workItem from="1749265431592" duration="6034000" />
+      <workItem from="1749310158938" duration="477000" />
     </task>
     <servers />
   </component>

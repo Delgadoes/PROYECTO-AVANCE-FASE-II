@@ -51,6 +51,7 @@
             border-radius: 4px;
             font-size: 18px;
             cursor: pointer;
+            margin-bottom: 10px;
         }
         button:hover {
             background-color: #45a049;
@@ -59,6 +60,18 @@
             color: red;
             margin-bottom: 15px;
             text-align: center;
+        }
+        .guest-access {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .guest-access a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .guest-access a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -93,6 +106,10 @@
 
         <button type="submit">INICIAR SESIÓN</button>
     </form>
+
+    <div class="guest-access">
+        <p>¿Solo quieres consultar ejemplares? <a href="consultarEjemplares">Accede como invitado</a></p>
+    </div>
 </div>
 </body>
 </html>
