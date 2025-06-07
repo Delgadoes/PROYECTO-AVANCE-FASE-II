@@ -182,14 +182,7 @@
     </tbody>
 </table>
 
-<div class="button-container">
-    <button type="button" onclick="window.location.href='login.jsp';">Regresar</button>
-    <button type="button" class="login-btn" onclick="window.location.href='login.jsp';">Iniciar Sesión</button>
-</div>
 
-<div class="guest-notice">
-    <p>Estás viendo una versión limitada para invitados. Inicia sesión para acceder a todas las funcionalidades.</p>
-</div>
 
 </body>
 </html>

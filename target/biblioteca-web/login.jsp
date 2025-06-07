@@ -108,7 +108,7 @@
     </form>
 
     <div class="guest-access">
-        <p>¿Solo quieres consultar ejemplares? <a href="consultarEjemplares">Accede como invitado</a></p>
+        <p>¿Solo quieres consultar ejemplares? <a href="consultarEjemplaresInvitado.jsp">Accede como invitado</a></p>
     </div>
 </div>
 </body>
