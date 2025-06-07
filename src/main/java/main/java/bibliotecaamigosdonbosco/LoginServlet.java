@@ -64,7 +64,7 @@ public class LoginServlet extends HttpServlet {
                                     response.sendRedirect("VentanaAdministrador.jsp");
                                     break;
                                 case "Profesor":
-                                    response.sendRedirect("profesor/inicio.jsp");
+                                    response.sendRedirect("VentanaProfesor.jsp");
                                     break;
                                 case "Alumno":
                                     response.sendRedirect("alumno.jsp");
