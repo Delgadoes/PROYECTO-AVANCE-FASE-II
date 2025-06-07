@@ -126,6 +126,10 @@
 
         <button type="submit" name="accion" value="Confirmar Prestamo">Confirmar Préstamo</button>
         <button type="submit" name="accion" value="Cancelar">Cancelar</button>
+        <button type="button" class="return-btn" onclick="history.back()">
+            Regresar
+        </button>
+
     </form>
 <% } %>
 

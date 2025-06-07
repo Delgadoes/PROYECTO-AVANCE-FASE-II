@@ -81,6 +81,16 @@
             background-color: #c0392b;
         }
 
+        .return-btn {
+            background-color: #3498db;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .return-btn:hover {
+            background-color: #2980b9;
+        }
+
         .message {
             width: 60%;
             margin: 10px auto;
@@ -199,7 +209,6 @@
             <div class="form-group">
                 <label for="anio">Año de la Tesis:</label>
                 <input type="text" id="anio" name="anio">
-
             </div>
         </div>
 
@@ -230,10 +239,15 @@
         </div>
 
         <div class="button-group">
-            <button type="button" class="back-btn"
-                    onclick="window.location.href='${pageContext.request.contextPath}/admin/consultarEjemplares'">
-                Cancelar
-            </button>
+            <div>
+                <button type="button" class="return-btn" onclick="history.back()">
+                    Regresar
+                </button>
+                <button type="button" class="back-btn"
+                        onclick="window.location.href='${pageContext.request.contextPath}/admin/consultarEjemplares'">
+                    Cancelar
+                </button>
+            </div>
             <button type="submit" class="save-btn">Guardar Ejemplar</button>
         </div>
     </form>

@@ -154,6 +154,9 @@
     <input type="text" id="buscar" name="buscar" value="<%= buscarTexto %>" />
 
     <button type="submit">Buscar</button>
+    <button type="button" class="return-btn" onclick="history.back()">
+        Regresar
+    </button>
 </form>
 
 <table>
@@ -180,8 +183,9 @@
     </tr>
     <% } %>
     </tbody>
-</table>
 
+
+</table>
 
 
 </body>

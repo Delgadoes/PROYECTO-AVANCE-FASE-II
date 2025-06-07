@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74335171-f842-4d9b-ab27-51d757be1f2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/consultarEjemplaresInvitado.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/agregarEjemplar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/agregarEjemplar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/consultarEjemplares.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/consultarEjemplares.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/solicitarPrestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/solicitarPrestamo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/biblioteca-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/biblioteca-web/agregarEjemplar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web/agregarEjemplar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/biblioteca-web/consultarEjemplares.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web/consultarEjemplares.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/biblioteca-web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/biblioteca-web/solicitarPrestamo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web/solicitarPrestamo.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1749249488378" duration="2151000" />
       <workItem from="1749265431592" duration="6034000" />
       <workItem from="1749310158938" duration="477000" />
-      <workItem from="1749329703234" duration="1130000" />
+      <workItem from="1749329703234" duration="1852000" />
     </task>
     <servers />
   </component>
