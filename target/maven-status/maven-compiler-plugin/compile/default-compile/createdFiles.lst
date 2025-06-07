@@ -1,6 +1,7 @@
 main\java\bibliotecaamigosdonbosco\SolicitarPrestamoServlet$Ejemplar.class
 main\java\bibliotecaamigosdonbosco\UsuarioSesion.class
 main\java\bibliotecaamigosdonbosco\ConsultarEjemplaresAlumnos$Ejemplar.class
+main\java\bibliotecaamigosdonbosco\ConfiguracionMoraServlet.class
 main\java\bibliotecaamigosdonbosco\PrestamoService.class
 main\java\bibliotecaamigosdonbosco\EliminarUsuarioServlet.class
 main\java\bibliotecaamigosdonbosco\DevolucionServlet.class
@@ -11,6 +12,7 @@ main\java\bibliotecaamigosdonbosco\AgregarEjemplarServlet.class
 main\java\bibliotecaamigosdonbosco\LoginServlet.class
 main\java\bibliotecaamigosdonbosco\SolicitarPrestamoServlet.class
 main\java\bibliotecaamigosdonbosco\ConexionBD.class
+main\java\bibliotecaamigosdonbosco\ConfiguracionMoraServlet$ConfiguracionMora.class
 main\java\bibliotecaamigosdonbosco\AgregarUsuarioServlet.class
 main\java\bibliotecaamigosdonbosco\ActualizarUsuarioServlet.class
 main\java\bibliotecaamigosdonbosco\EjemplarAdmin.class

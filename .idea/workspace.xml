@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74335171-f842-4d9b-ab27-51d757be1f2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/bibliotecaamigosdonbosco/ActualizarUsuarioServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/bibliotecaamigosdonbosco/AgregarUsuarioServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/bibliotecaamigosdonbosco/EliminarUsuarioServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/agregarUsuario.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/editarUsuario.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/gestionUsuarios.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/java/bibliotecaamigosdonbosco/ConfiguracionMoraServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/configuracionMora.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/VentanaAdministrador.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/VentanaAdministrador.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/biblioteca-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/biblioteca-web/VentanaAdministrador.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/biblioteca-web/VentanaAdministrador.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -95,7 +93,9 @@
       <workItem from="1748920897209" duration="5977000" />
       <workItem from="1749002753877" duration="9064000" />
       <workItem from="1749086135696" duration="5650000" />
-      <workItem from="1749181156583" duration="1648000" />
+      <workItem from="1749181156583" duration="2618000" />
+      <workItem from="1749249488378" duration="2151000" />
+      <workItem from="1749265431592" duration="1319000" />
     </task>
     <servers />
   </component>
